@@ -1,14 +1,13 @@
 package edu.cnm.deepdive;
 
-import java.util.*;
-import java.lang.Math;
+import java.util.Scanner;
 
 public class InputConverter {
-    private static Scanner input = new Scanner(System.in);
+
 
     public static void main(String[] args) {
         boolean running;
-        
+        Scanner input = new Scanner(System.in);
         running = true;
         while (running) {
             String userInput;
